@@ -20,11 +20,11 @@ export const NavBar = () => {
             <NavLink to="/blogs" className="hover:text-indigo-400">
               Blogs
             </NavLink>
-            <NavLink to="/categories" className="hover:text-indigo-400">
-              Categories
+            <NavLink to="/login" className="hover:text-indigo-400">
+              Login
             </NavLink>
-            <NavLink to="/contact" className="hover:text-indigo-400">
-              Contact
+            <NavLink to="/register" className="hover:text-indigo-400">
+              Register
             </NavLink>
           </nav>
 
@@ -63,13 +63,13 @@ export const NavBar = () => {
             Blogs
           </NavLink>
           <NavLink
-            to="/categories"
+            to="/login"
             className="block py-2 border-b border-gray-700 hover:text-indigo-400"
           >
-            Categories
+            Login
           </NavLink>
-          <NavLink to="/contact" className="block py-2 hover:text-indigo-400">
-            Contact
+          <NavLink to="/register" className="block py-2 border-b border-gray-700 hover:text-indigo-400">
+            Register
           </NavLink>
         </div>
       </header>

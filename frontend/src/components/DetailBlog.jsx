@@ -8,7 +8,7 @@ export const DetailBlog = () => {
     <>
       <div className="max-w-4xl mx-auto px-4 py-6">
         <button onClick={backPreviousPage} className="text-indigo-600 hover:underline">
-          &larr; Back to all blogs
+          &larr; Back 
         </button>
       </div>
 
